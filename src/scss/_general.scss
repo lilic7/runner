@@ -1,0 +1,28 @@
+.cta{
+  margin-top: 30px;
+}
+
+.link{
+  display: inline-block;
+  margin: 0;
+  padding: 15px 50px;
+  border: 5px solid $black;
+  font-family: Arial, monospace;
+  font-size: 1.250em;
+  font-weight: 700;
+
+  & + &{
+    border-left: none;
+    padding: 15px;
+  }
+}
+
+.img{
+  padding: 10px;
+}
+.instructors{
+  margin-top: 30px;
+}
+.row-2{
+  margin-top: -150px;
+}

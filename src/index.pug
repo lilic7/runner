@@ -1,0 +1,31 @@
+extends pug_components/layout
+
+block page_title
+    | Main page
+
+block content
+    .content-wrap
+        .container
+            .row
+                .col-sm-12
+                    h1.main-title Run
+                        br
+                        | the streets
+                        br
+                        | of queens
+            .row
+                .col-sm-12
+                    .cta
+                        a.link(href="/contact.html") Enter email
+                        a.link(href="/contact.html") Sing up
+
+            .row
+                .col-sm-12
+                    .instructors
+                        .row-1
+                            img.img(src="../images/instructor-1.png")
+                            img.img(src="../images/instructor-2.png")
+                            img.img(src="../images/instructor-3.png")
+                        .row-2
+                            img.img(src="../images/instructor-4.png")
+                            img.img(src="../images/instructor-5.png")

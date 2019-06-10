@@ -1,0 +1,42 @@
+nav{
+  height: 180px;
+
+  .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    img{
+      width: 320px;
+      height: auto;
+    }
+
+  }
+
+  .main-menu{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .nav-item{
+  }
+
+  .nav-link{
+    margin: 0 10px;
+    font-size: 0.875em;
+    font-weight: 800;
+    color: $black;
+    text-transform: uppercase;
+
+    &.active, &:focus{
+      color: $primary;
+    }
+    &:hover{
+      color: $secondary;
+    }
+  }
+}

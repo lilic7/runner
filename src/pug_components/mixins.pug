@@ -1,0 +1,4 @@
+mixin link(title, link)
+    - var url = (link!=="/" ? link+".html" : link)
+    - var cls = "nav-link"+(link==="/" ? " active" : "")
+    a(href=url class=cls)= title

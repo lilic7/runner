@@ -1,0 +1,11 @@
+include items
+.container
+    nav.row
+        .col-sm-4
+            a.logo(href="/")
+                img(src="images/logo.png" alt="Runner logo")
+        .col-sm-7.offset-1
+                ul.main-menu
+                    each item in menu_items
+                        li.nav-item
+                            +link(item.name, item.link)

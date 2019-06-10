@@ -1,0 +1,25 @@
+body{
+  font-family: Arial, monospace
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  color: $black;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4{
+  font-family: Arial, monospace;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size: 6.875em;
+  font-weight: 800;
+}
